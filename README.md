@@ -30,14 +30,7 @@ EDA involved exploring the heart study data to answer key questions such as:
 - Which numerical health metric features tend to have the strongest correlation with each other?
 
 ### Data Analysis 
-```python
-import pandas as pd
-df = pd.read_excel(r'/content/drive/MyDrive/Framingham heart study data.xlsx')
-df.head()
-display(pd.DataFrame(df))
-df.info()
-df.isnull().sum()
-```
+Please see the python file for the code used in this project
 
 ### Results/Findings 
 The following findings are obtained from the analysis:
