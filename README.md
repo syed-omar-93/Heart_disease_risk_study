@@ -1,1 +1,71 @@
-# Heart_disease_risk_study
+# Heart_disease_risk_analysis
+
+### Project Overview
+This project is a data Analysis of the Framingham Heart Study using Python. This project aims to explore the Risk Factors for patients having a risk of Coronary Heart Disease (CHD) within the next 10 years.
+
+### Data Sources
+The primary data set used for this analysis is the framingham_heart_study.csv file, containing detailed information about each patient either at risk or not at risk of heart disease. This is a data set containing a list of 4,240 patients belonging to one of two categories: Either at risk of CHD or not at risk of CHD. This data set can be downloaded from the following website   (https://www.kaggle.com/datasets/noeyislearning/framingham-heart-study)
+
+### Tools Used 
+The tools used in this project are the main data analysis libraries of Python. These include:
+•	Pandas
+•	Matplotlib
+•	Seaborn
+•	SciPy
+
+
+### Data Preperation 
+In the initial data preperation phase, the following tasks were performed:
+1. Data loading and inspection 
+2. Data formatting 
+3. Handling missing values
+
+### Exploratory data analysis
+EDA involved exploring the heart study data to answer key questions such as: 
+- Do at-risk patients tend to have higher average BMI, systolic BP, cholesterol, and heart rate? 
+- Do older people tend to be at a higher risk of heart disease compared with younger people. If so, why? 
+- Do a higher % of people who are at risk of heart disease tend to be smokers? 
+- Do a higher % of people who are at risk of heart disease tend to have a history of hypertension? 
+- For smokers only, is there a correlation between number of cigarettes smoked per day and people’s ages. Do older people tend to smoke a higher number of cigarettes?
+- Which numerical health metric features tend to have the strongest correlation with each other?
+
+### Data Analysis 
+```python
+import pandas as pd
+df = pd.read_excel(r'/content/drive/MyDrive/Framingham heart study data.xlsx')
+df.head()
+display(pd.DataFrame(df))
+df.info()
+df.isnull().sum()
+```
+
+### Results/Findings 
+The following findings are obtained from the analysis:
+1. Yes, most at risk patients do have a higher average BMI, systolic BP, cholesterol and heart rate. 
+2. The distribution of people’s ages is random. A high frequency of old and middle-aged people is at risk of heart disease. 
+The histogram has three separate peaks and so has a multimodal distribution. 
+These peaks suggest there may be three subgroups of at-risk individuals with different age ranges.
+This suggests multiple subgroups within the at-risk population that are more likely to develop heart disease at different ages — possibly due to:
+a)	Different lifestyle or genetic risk factors
+b)	Underlying clusters or demographics
+3. About the same % of people who are at risk of heart disease tend to be smokers as the % of people who are not at risk of heart disease. About 52 % of at-risk patients are smokers while 48% are non-smokers. About the same figure - 49% of not-at-risk patients are smokers while the remaining 51% were non-smokers. 
+Hypertension refers to high blood pressure. 
+4. A higher % of people who are at risk of heart disease tend to have a history of hypertension. About 50% of the patients at risk of heart disease do have a history of hypertension. On the other hand, only 27% of the patients not at risk of heart disease have a history of hypertension. So clearly a much higher % of at-risk patients have a history of hypertension than the patients belonging to the ‘not at risk’ category. 
+5. For patients who are smokers only, there does not seem to be any correlation between people’s ages and the number of cigarettes per day. The two variables are independent of each other.
+
+### Recommendations
+
+### Limitations
+
+
+
+
+
+
+
+
+
+
+
+
+
