@@ -37,7 +37,7 @@ The following findings are obtained from the analysis:
 1. Yes, most at risk patients do have a higher average BMI, systolic BP, cholesterol and heart rate.
 2. A one-tailed Welch’s t test is performed on the data to determine if the mean cholesterol level, glucose level, BMI, Heart rate, Systolic BP and Diastolic BP of at-risk patients is significantly higher than for not-at-risk patients. The results of the test clearly indicate that this is the case. 
 Assuming a significance level of α = 0.01, 
-The p-values for the total cholesterol level, glucose level, Heart Rate, Systolic BP and Diastolic BP are less than 0.01 (p < 0.01) therefore the differences are statistically significant, indicating that the higher values of the total cholesterol level, glucose level, Heart Rate, Systolic BP and Diastolic BP for at-risk patients are unlikely to be due to chance.
+The p-values for the total cholesterol level, glucose level, Heart Rate, Systolic BP and Diastolic BP are less than 0.01 (p < 0.01) therefore the differences are statistically significant. This indicates that the higher values of the total cholesterol level, glucose level, Heart Rate, Systolic BP and Diastolic BP for at-risk patients are unlikely to be due to chance.
 The only health feature which is an exception to this is the BMI. There is not enough statistical evidence to suggest that at risk patients have a significantly higher BMI than not-at-risk patients. 
 3. The distribution of people’s ages is random. A high frequency of old and middle-aged people is at risk of heart disease. 
 The histogram has three separate peaks and so has a multimodal distribution. 
