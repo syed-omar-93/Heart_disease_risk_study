@@ -51,8 +51,8 @@ Hypertension refers to high blood pressure.
 6. For patients who are smokers only, there does not seem to be any correlation between people’s ages and the number of cigarettes per day. The two variables are independent of each other.
 
 ### Recommendations
-Instead of just looking at charts and graphs, more advanced statistical methods could be applied on the data to better understand how different health factors are connected. This would verify whether patterns we see in the visuals are actually meaningful or just random.
-The results from this analysis could be used to create clear, easy-to-understand messages for the public to offer health advice. For example, showing how smoking or high blood pressure increases the risk of heart disease could help raise awareness and encourage healthier choices.
+- Instead of just looking at charts and graphs, more advanced statistical methods could be applied on the data to better understand how different health factors are connected. This would verify whether patterns we see in the visuals are actually meaningful or just random.
+- The results from this analysis could be used to create clear, easy-to-understand messages for the public to offer health advice. For example, showing how smoking or high blood pressure increases the risk of heart disease could help raise awareness and encourage healthier choices.
 
 
 ### Limitations
