@@ -51,10 +51,18 @@ Hypertension refers to high blood pressure.
 6. For patients who are smokers only, there does not seem to be any correlation between people’s ages and the number of cigarettes per day. The two variables are independent of each other.
 
 ### Recommendations
+Instead of just looking at charts and graphs, more advanced statistical methods could be applied on the data to better understand how different health factors are connected. This would verify whether patterns we see in the visuals are actually meaningful or just random.
+The results from this analysis could be used to create clear, easy-to-understand messages for the public to offer health advice. For example, showing how smoking or high blood pressure increases the risk of heart disease could help raise awareness and encourage healthier choices.
+
 
 ### Limitations
+While this project does provide useful findings from the Framingham Heart Study dataset, several limitations should be acknowledged:
 
-
+1. The dataset primarily represents a white, middle-class population from Framingham, Massachusetts. Therefore, these findings and results might not be generalizable to more diverse ethnic and socioeconomic groups.
+2. Several records contain missing values for key health metrics (e.g., cholesterol, BMI, smoking status). Although imputation techniques were applied, they may introduce bias or reduce model reliability.
+3. Only 15 attributes of patients are included ignoring potentially influential factors such as stress level, diet and physical activity.
+4. Some features, like smoking status, are reported by the patients themselves and so may be subject to individual bias.
+5. Treating coronary heart disease as a simple yes/no outcome may overlook the gradual and complex nature of cardiovascular heart disease risk, which typically develops over time and varies in severity.
 
 
 
