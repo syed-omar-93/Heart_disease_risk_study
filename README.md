@@ -45,7 +45,7 @@ These peaks suggest there may be three subgroups of at-risk individuals with dif
 This suggests multiple subgroups within the at-risk population that are more likely to develop heart disease at different ages — possibly due to:
 a)	Different lifestyle or genetic risk factors
 b)	Underlying clusters or demographics
-4. About the same % of people who are at risk of heart disease tend to be smokers as the % of people who are not at risk of heart disease. About 52 % of at-risk patients are smokers while 48% are non-smokers. About the same figure - 49% of not-at-risk patients are smokers while the remaining 51% were non-smokers. 
+4. A slightly higher % of people who are at risk of heart disease tend to be smokers than non smokers. About 52 % of at-risk patients are smokers while 48% are non-smokers. For not-at-risk patients, 49% of them were smokers while the remaining 51% were non-smokers. 
 Hypertension refers to high blood pressure. 
 5. A higher % of people who are at risk of heart disease tend to have a history of hypertension. About 50% of the patients at risk of heart disease do have a history of hypertension. On the other hand, only 27% of the patients not at risk of heart disease have a history of hypertension. So clearly a much higher % of at-risk patients have a history of hypertension than the patients belonging to the ‘not at risk’ category. 
 6. For patients who are smokers only, there does not seem to be any correlation between people’s ages and the number of cigarettes per day. The two variables are independent of each other.
